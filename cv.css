@@ -1,0 +1,93 @@
+/*taille de ma page*/
+#wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+    border-right: 2px solid #2c1d27;
+}
+/*police d'écriture importé*/
+@font-face{
+    font-family: raleway;
+    src: url(Raleway-VariableFont_wght.woff);
+    src: url(Raleway-Italic-VariableFont_wght.ttf) format("truetype");
+}
+    @font-face {
+        font-family: lato;
+        src: url(Lato-Black.woff);
+        src: url(Lato-Black.ttf)format("truetype");
+    }
+    h1{
+        font-family:"lato-black", serif;
+    }
+
+.haut__page{
+    top: 0;
+    height: 250px;
+    background-color: #782221;
+    text-align: center;
+    font-family: "raleway", serif;
+   
+}
+
+.haut__menu{
+    background-color: #2c1d27;
+    color: white;
+    width: 100%;
+    font-family: "raleway", serif;
+    cursor: default;
+}
+    
+
+/*image arrondi et ombre avec effet click*/
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #dbc2a4;
+    cursor: zoom-in;
+}
+/*alignement du corp de ma page*/
+.corp{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 2px solid #2c1d27;
+    font-family: "raleway", serif;
+}
+.corp__1{
+    background-color: #782221;
+    text-align: left;
+    width: 30%;
+    font-family: "raleway", serif;
+}
+.corp__2{
+    background-color: white;
+    width: 70%;
+    line-height: 2;
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+    font-family: "raleway", serif;
+}
+/*sourligné tous les titre en h3*/
+h3{
+    background: #dbc2a4;
+}
+/*pied de page*/
+.pied{
+    font-family: "raleway", serif;
+    background-color: #782221;
+   
+}
+.pied__page{
+    text-align: center ;   
+}
+.pied__contenu{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    cursor: default;
+}
